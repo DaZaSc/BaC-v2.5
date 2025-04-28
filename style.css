@@ -1,0 +1,52 @@
+body {
+    background: #111;
+    color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#chatbox {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 15px;
+}
+
+.system {
+    color: #0af;
+}
+
+.user {
+    color: #afa;
+    text-align: right;
+}
+
+#inputArea {
+    display: flex;
+    padding: 10px;
+    background: #222;
+}
+
+#userInput {
+    flex: 1;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+}
+
+button {
+    background: #0af;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
